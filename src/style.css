@@ -1,0 +1,52 @@
+/* 1. 统一盒模型 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. 清除默认内外边距 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 3. 去掉所有 ul / ol 默认样式（小圆点 / 数字） */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 4. 清除链接默认下划线 */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 5. 图片不超出父容器 */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* 6. 输入框/按钮统一字体，不继承浏览器默认 */
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. 按钮去掉默认边框 */
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* 8. 表格优化 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
