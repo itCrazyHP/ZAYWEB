@@ -11,7 +11,7 @@
         <div class="content-page">
             <div class="content-wrapper">
                 <strong class="title2">
-                    Navy Fund株式会社について
+                    Navy Fund株式会社について 
                 </strong>
                 <span class="text">私たちの目標は、市場に垂直統合を提供するグループを創設することです。
                     これには、半導体ウェーハ工場や設計センターへの投資、製品設計、
