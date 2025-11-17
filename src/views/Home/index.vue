@@ -6,7 +6,13 @@
             </div>
         </div>
         <div class="content-wrapper banner-wrapper">
-            <img class="banner" src="../../assets/imgs/banner2.jpg" alt="">
+            <img class="banner" src="../../assets/imgs/banner4.png" alt="">
+            <div class="banner-text">
+                研究⼈材の⽀援を重視し、⽂化産業の再開発計画<br>
+                当社はテクノロジー系の起業・イノベーションや研究者⽀援を中⼼に、<br>
+                神保町をはじめとする⽂化産業の発展を中⼼に展開しています。<br>
+                事業はやはり半導体系イノベーションの買収やインキュベーションが中⼼です。
+            </div>
         </div>
         <div class="content-page">
             <div class="content-wrapper">
@@ -59,7 +65,7 @@
                 <hr>
             </div>
 
-            
+
             <div class="content-wrapper">
                 <strong class="title2" data-aos="zoom-up">
                     新着情報
@@ -156,28 +162,37 @@ onMounted(async () => {
 
 <style scoped>
 .stroke-text {
-  font-size: 48px;
-  font-weight: 700;
-  color: transparent;              /* 开始时文字是透明 */
-  -webkit-text-stroke: 1px #000;   /* 白色描边 */
-  animation: fillText 1s ease forwards;
+    font-size: 48px;
+    font-weight: 700;
+    color: transparent;
+    /* 开始时文字是透明 */
+    -webkit-text-stroke: 1px #000;
+    /* 白色描边 */
+    animation: fillText 1s ease forwards;
 }
 
 /* 填充动画 */
 @keyframes fillText {
-  0% {
-    color: transparent;           /* 没填充 */
-    -webkit-text-stroke: 1px #000;
-  }
-  50% {
-    color: transparent;           /* 先保持描边 */
-    -webkit-text-stroke: 1px #000;
-  }
-  100% {
-    color: #000;                  /* 最后填充变实体 */
-    -webkit-text-stroke: 0px transparent; /* 去掉描边 */
-  }
+    0% {
+        color: transparent;
+        /* 没填充 */
+        -webkit-text-stroke: 1px #000;
+    }
+
+    50% {
+        color: transparent;
+        /* 先保持描边 */
+        -webkit-text-stroke: 1px #000;
+    }
+
+    100% {
+        color: #000;
+        /* 最后填充变实体 */
+        -webkit-text-stroke: 0px transparent;
+        /* 去掉描边 */
+    }
 }
+
 .img-hover-wrapper {
     display: flex;
     width: 100%;
@@ -310,6 +325,22 @@ onMounted(async () => {
 
 .banner-wrapper {
     position: relative;
+}
+
+.banner-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 70%; /* 自己调 */
+  text-align: center;
+
+  color: white;
+  font-size: 32px;
+  line-height: 1.5;
+  font-weight: bold;
+  text-shadow: 0 4px 12px rgba(0,0,0,0.6); /* 防止白字看不清 */
 }
 
 .banner-wrapper::before {
