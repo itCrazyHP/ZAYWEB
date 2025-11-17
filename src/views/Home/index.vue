@@ -1,7 +1,7 @@
 <template>
     <div class="home-page">
         <div class="content-wrapper">
-            <div class="title" data-aos="fade-up">
+            <div class="title stroke-text">
                 Navy Fund株式会社
             </div>
         </div>
@@ -58,25 +58,8 @@
             <div class="divider">
                 <hr>
             </div>
-            <div class="content-wrapper">
-                <strong class="title2" data-aos="zoom-up">
-                    選ばれる理由
-                </strong>
-                <div class="img-hover-wrapper">
-                    <div class="image-hover-box" data-aos="zoom-in">
-                        <img class="img" src="../../assets/imgs/reason1.png" alt="" />
-                    </div>
-                    <div class="image-hover-box" data-aos="zoom-in">
-                        <img class="img" src="../../assets/imgs/reason2.png" alt="" />
-                    </div>
-                    <div class="image-hover-box" data-aos="zoom-in">
-                        <img class="img" src="../../assets/imgs/reason3.png" alt="" />
-                    </div>
-                </div>
-            </div>
-            <div class="divider">
-                <hr>
-            </div>
+
+            
             <div class="content-wrapper">
                 <strong class="title2" data-aos="zoom-up">
                     新着情報
@@ -172,6 +155,29 @@ onMounted(async () => {
 </script>
 
 <style scoped>
+.stroke-text {
+  font-size: 48px;
+  font-weight: 700;
+  color: transparent;              /* 开始时文字是透明 */
+  -webkit-text-stroke: 1px #000;   /* 白色描边 */
+  animation: fillText 1s ease forwards;
+}
+
+/* 填充动画 */
+@keyframes fillText {
+  0% {
+    color: transparent;           /* 没填充 */
+    -webkit-text-stroke: 1px #000;
+  }
+  50% {
+    color: transparent;           /* 先保持描边 */
+    -webkit-text-stroke: 1px #000;
+  }
+  100% {
+    color: #000;                  /* 最后填充变实体 */
+    -webkit-text-stroke: 0px transparent; /* 去掉描边 */
+  }
+}
 .img-hover-wrapper {
     display: flex;
     width: 100%;
