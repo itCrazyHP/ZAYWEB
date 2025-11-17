@@ -8,7 +8,7 @@
         <div class="content-wrapper banner-wrapper">
             <img class="banner" src="../../assets/imgs/banner4.png" alt="">
             <div class="banner-text">
-                研究⼈材の⽀援を重視し、⽂化産業の再開発計画<br>
+                <span class="banner-title">研究⼈材の⽀援を重視し、⽂化産業の再開発計画</span><br>
                 当社はテクノロジー系の起業・イノベーションや研究者⽀援を中⼼に、<br>
                 神保町をはじめとする⽂化産業の発展を中⼼に展開しています。<br>
                 事業はやはり半導体系イノベーションの買収やインキュベーションが中⼼です。
@@ -318,7 +318,7 @@ onMounted(async () => {
 }
 
 .title {
-    font-size: 18px;
+    font-size: 26px;
     font-weight: 700;
     margin-bottom: 9px;
 }
@@ -328,19 +328,26 @@ onMounted(async () => {
 }
 
 .banner-text {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+    position: absolute;
+    /* top: 50%;
+  transform: translate(-50%, -50%); */
+    top: 60%;
+    left: 10%;
+    transform: translateY(-50%);
+    width: 70%;
+    /* 自己调 */
+    text-align: left;
 
-  width: 70%; /* 自己调 */
-  text-align: center;
+    color: white;
+    font-size: 24px;
+    line-height: 2;
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    /* 防止白字看不清 */
+}
 
-  color: white;
-  font-size: 32px;
-  line-height: 1.5;
-  font-weight: bold;
-  text-shadow: 0 4px 12px rgba(0,0,0,0.6); /* 防止白字看不清 */
+.banner-title {
+    font-size: 32px;
+    font-weight: 700;
 }
 
 .banner-wrapper::before {
