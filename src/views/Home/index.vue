@@ -1,55 +1,55 @@
 <template>
     <div class="home-page">
         <div class="content-wrapper">
-            <span class="title">
+            <div class="title" data-aos="fade-up">
                 Navy Fund株式会社
-            </span>
+            </div>
         </div>
         <div class="content-wrapper banner-wrapper">
             <img class="banner" src="../../assets/imgs/banner2.jpg" alt="">
         </div>
         <div class="content-page">
             <div class="content-wrapper">
-                <strong class="title2">
-                    Navy Fund株式会社について 
+                <strong class="title2" data-aos="zoom-up">
+                    Navy Fund株式会社について
                 </strong>
-                <span class="text">私たちの目標は、市場に垂直統合を提供するグループを創設することです。
+                <span class="text" data-aos="zoom-up">私たちの目標は、市場に垂直統合を提供するグループを創設することです。
                     これには、半導体ウェーハ工場や設計センターへの投資、製品設計、
                     生産プロセスと技術の移転、機器とアセンブリの供給、技術サービスの提供が含まれます。
                     さらなる改善やお客様とのより良い連携方法についてのご提案をお待ちしております。
                     このページでは、当社が完了したいくつかの主要プロジェクトと当社のビジネスパートナーに関する情報をご覧いただけます。
                 </span>
                 <div class="img-hover-wrapper">
-                    <div class="image-hover-box">
+                    <div class="image-hover-box" data-aos="zoom-in">
                         <img class="img" src="../../assets/imgs/aboutus1.jpg" alt="" />
 
                         <!-- 悬浮时显示的遮罩层 -->
                         <div class="mask">
                             <div class="mask-content">
-                                <div class="mask-title">关于半导体</div>
-                                我们向您介绍电子、半导体、电信、材料和建筑行业。
+                                <div class="mask-title">半導体について</div>
+                                エレクトロニクス、半導体、通信、素材、建築産業などの分野にご紹介します。
                             </div>
                         </div>
                     </div>
-                    <div class="image-hover-box">
+                    <div class="image-hover-box" data-aos="zoom-in">
                         <img class="img" src="../../assets/imgs/aboutus2.jpg" alt="" />
 
                         <!-- 悬浮时显示的遮罩层 -->
                         <div class="mask">
                             <div class="mask-content">
-                                <div class="mask-title">公司介绍</div>
-                                我们主要在日本和美国活跃业务。
+                                <div class="mask-title">会社概要</div>
+                                日本とアメリカを中心して活動しております。
                             </div>
                         </div>
                     </div>
-                    <div class="image-hover-box">
+                    <div class="image-hover-box" data-aos="zoom-in">
                         <img class="img" src="../../assets/imgs/aboutus3.jpg" alt="" />
 
                         <!-- 悬浮时显示的遮罩层 -->
                         <div class="mask">
                             <div class="mask-content">
-                                <div class="mask-title">业务介绍</div>
-                                股票持有/投资、电子和半导体、新型建筑和涂料材料
+                                <div class="mask-title">事業紹介</div>
+                                株式持株保有/投資、エレクトロニクスおよび半導体、新しい構造およびコーティング材料
                             </div>
                         </div>
                     </div>
@@ -59,17 +59,17 @@
                 <hr>
             </div>
             <div class="content-wrapper">
-                <strong class="title2">
-                    入选理由
+                <strong class="title2" data-aos="zoom-up">
+                    選ばれる理由
                 </strong>
                 <div class="img-hover-wrapper">
-                    <div class="image-hover-box">
+                    <div class="image-hover-box" data-aos="zoom-in">
                         <img class="img" src="../../assets/imgs/reason1.png" alt="" />
                     </div>
-                    <div class="image-hover-box">
+                    <div class="image-hover-box" data-aos="zoom-in">
                         <img class="img" src="../../assets/imgs/reason2.png" alt="" />
                     </div>
-                    <div class="image-hover-box">
+                    <div class="image-hover-box" data-aos="zoom-in">
                         <img class="img" src="../../assets/imgs/reason3.png" alt="" />
                     </div>
                 </div>
@@ -78,10 +78,10 @@
                 <hr>
             </div>
             <div class="content-wrapper">
-                <strong class="title2">
-                    新信息
+                <strong class="title2" data-aos="zoom-up">
+                    新着情報
                 </strong>
-                <div class="news-table">
+                <div class="news-table" data-aos="zoom-in-up">
                     <!-- 第一行 -->
                     <div class="news-row">
                         <div class="news-cell type">NEW</div>
@@ -103,7 +103,7 @@
                         <div class="news-cell content">NEWS</div>
                     </div>
                     <div class="more-info">
-                        点击此处查看公告列表
+                        お知らせ一覽はこちらから
                         <ChevronRight size="18" color="#fff" />
                     </div>
                 </div>
@@ -112,44 +112,35 @@
                 <hr>
             </div>
             <div class="content-wrapper">
-                <strong class="title2">
-                    商业合作伙伴
+                <strong class="title2" data-aos="zoom-up">
+                    ビジネスパートナー
                 </strong>
-                <div class="img-hover-wrapper">
-                    <div class="image-hover-box">
-                        <img class="img" src="../../assets/imgs/aboutus1.jpg" alt="" />
-
-                        <!-- 悬浮时显示的遮罩层 -->
-                        <div class="mask">
-                            <div class="mask-content">
-                                <div class="mask-title">关于半导体</div>
-                                我们向您介绍电子、半导体、电信、材料和建筑行业。
-                            </div>
-                        </div>
+                <div class="img-hover-wrapper-grid">
+                    <div class="image-hover-box" data-aos="zoom-in">
+                        <img class="img" src="../../assets/imgs/friend1.png" alt="" />
                     </div>
-                    <div class="image-hover-box">
-                        <img class="img" src="../../assets/imgs/aboutus2.jpg" alt="" />
-
-                        <!-- 悬浮时显示的遮罩层 -->
-                        <div class="mask">
-                            <div class="mask-content">
-                                <div class="mask-title">公司介绍</div>
-                                我们主要在日本和美国活跃业务。
-                            </div>
-                        </div>
+                    <div class="image-hover-box" data-aos="zoom-in">
+                        <img class="img" src="../../assets/imgs/friend2.png" alt="" />
                     </div>
-                    <div class="image-hover-box">
-                        <img class="img" src="../../assets/imgs/aboutus3.jpg" alt="" />
-
-                        <!-- 悬浮时显示的遮罩层 -->
-                        <div class="mask">
-                            <div class="mask-content">
-                                <div class="mask-title">业务介绍</div>
-                                股票持有/投资、电子和半导体、新型建筑和涂料材料
-                            </div>
-                        </div>
+                    <div class="image-hover-box" data-aos="zoom-in">
+                        <img class="img" src="../../assets/imgs/friend3.png" alt="" />
+                    </div>
+                    <div class="image-hover-box" data-aos="zoom-in">
+                        <img class="img" src="../../assets/imgs/friend4.png" alt="" />
+                    </div>
+                    <div class="image-hover-box" data-aos="zoom-in">
+                        <img class="img" src="../../assets/imgs/friend5.png" alt="" />
+                    </div>
+                    <div class="image-hover-box" data-aos="zoom-in">
+                        <img class="img" src="../../assets/imgs/friend6.png" alt="" />
+                    </div>
+                    <div class="image-hover-box" data-aos="zoom-in">
+                        <img class="img" src="../../assets/imgs/friend7.png" alt="" />
                     </div>
                 </div>
+            </div>
+            <div class="divider">
+                <hr>
             </div>
         </div>
     </div>
@@ -157,6 +148,27 @@
 
 <script setup>
 import { ChevronRight } from 'lucide-vue-next';
+import { onMounted, nextTick, onActivated } from 'vue'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+onMounted(async () => {
+    await nextTick()
+
+    AOS.init({
+        duration: 800,
+        once: false,
+        mirror: true, // 重要：确保反向滚动也触发
+        anchorPlacement: 'top-bottom',
+        delay: 0,
+    })
+
+    // 添加滚动监听，手动刷新 AOS
+    window.addEventListener('scroll', () => {
+        AOS.refresh()
+    })
+})
+
 </script>
 
 <style scoped>
@@ -164,6 +176,24 @@ import { ChevronRight } from 'lucide-vue-next';
     display: flex;
     width: 100%;
     justify-content: space-around;
+}
+
+.img-hover-wrapper-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    /* 每行 4 列，每列 200px */
+    grid-auto-rows: 200px;
+    /* 每行高度 200px */
+    gap: 16px;
+    /* 格子间距，可调 */
+    justify-content: center;
+}
+
+.img-hover-wrapper-grid .img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 .image-hover-box {
@@ -177,7 +207,7 @@ import { ChevronRight } from 'lucide-vue-next';
 }
 
 /* 图片 */
-.img {
+.img-hover-wrapper .img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -362,5 +392,11 @@ import { ChevronRight } from 'lucide-vue-next';
     padding: 6px 12px;
     margin-left: auto;
     font-size: 14px;
+}
+</style>
+<style>
+.reveal {
+    opacity: 0;
+    /* 初始隐藏 */
 }
 </style>
